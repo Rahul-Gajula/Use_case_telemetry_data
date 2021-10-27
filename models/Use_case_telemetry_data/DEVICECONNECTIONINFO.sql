@@ -1,5 +1,5 @@
 with source_DEVICECONNECTIONINFO as (
-    select * from {{ source('Use_case_telemetry_data', 'DEVICECONNECTIONINFO') }}
+    select * from {{ source('Use_case_telemetry_data','DEVICECONNECTIONINFO') }}
 ),
 
 final as (
