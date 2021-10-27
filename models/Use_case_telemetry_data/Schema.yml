@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: Use_case_telemetry_data
+    database: DEMO_DB
+    schema: public
+    tables:
+      - name: DEVICECONNECTIONINFO
+      - name: DEVICEINFO
+      - name: DEVICE_TELEMETRY_DATA

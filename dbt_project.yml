@@ -35,4 +35,5 @@ models:
   Use_case_telemetry_data:
       # Applies to all files under models/example/
       Use_case_telemetry_data:
-          materialized: view
+          materialization: table
+          +schema: Telemetry 
