@@ -3,7 +3,7 @@ with source_DEVICECONNECTIONINFO as (
 ),
 
 final as (
-    select * source_DEVICECONNECTIONINFO
+    select * from source_DEVICECONNECTIONINFO
 )
 
 select * from final
