@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: Use_case_telemetry_data_temp
+    database: use_case_telemetry_data
+    schema: telemetry
+    tables:
+      - name: DEVICE_TELEMETRY_DATA
