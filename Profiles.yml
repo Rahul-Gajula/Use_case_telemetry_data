@@ -1,0 +1,18 @@
+snowflake:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      account: vp97388.southeast-asia.azure
+
+      # User/password auth
+      user: rahulgajulatest1
+      password: azure8143@HCL
+
+      role: SYSADMIN
+      database: use_case_telemetry
+      warehouse: COMPUTE_WH
+      schema: PUBLIC
+      threads: 10
+      client_session_keep_alive: False
+      query_tag: DEMO
